@@ -23,7 +23,6 @@ steps:
 
 - task: Npm@1
   displayName: 'Run npm install'
-  workingDirectory: package.json
   inputs:
     verbose: true
 
